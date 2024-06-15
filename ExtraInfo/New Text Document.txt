@@ -1,0 +1,37 @@
+Hepatitis B (HepB)
+Diphtheria, Tetanus, Pertussis (DTaP/Tdap)
+Haemophilus influenzae type b (Hib)
+Polio
+Pneumococcal Conjugate (PCV)
+Rotavirus (RV)
+Measles, Mumps, Rubella (MMR)
+Varicella (Chickenpox)
+Hepatitis A (HepA)
+Human Papillomavirus (HPV)
+Meningococcal Conjugate (MCV4)
+
+
+
+
+
+Page:
+vaccination Center
+Vaccination Inventory
+Inventory Management
+Vaccination History
+Notification
+
+Point:
+Vaccination Inventory Management: 
+Vaccination Campain Information:
+Vaccination Tracker: Dose Track Bar,
+Medical Profile
+
+
+
+
+LoginAccess:
+Pediatrician
+Govt Agency
+Child/Gurdian
+Vaccine Center

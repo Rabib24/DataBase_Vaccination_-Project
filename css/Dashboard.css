@@ -1,0 +1,152 @@
+
+.container {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    border-radius: 20px;
+    height: 100%;
+    margin-top: 20px;
+    background-color: rgb(211, 211, 211); 
+}
+.DashboardHeader{
+    margin: 0 10px 23px 0;
+    
+}
+
+.left-column {
+    background-color: #2c3e50;
+    width: 250px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+}
+
+.menu-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 10px;
+    color: #ecf0f1;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.menu-item img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.menu-item:hover {
+    background-color: #000000;
+    border-radius: 15px;
+}
+
+.right-column {
+    flex-grow: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+.section {
+    display: none;
+}
+
+.section.active {
+    display: block;
+}
+
+.DBHeaderContent {
+    margin-bottom: 20px;
+}
+
+.DBHeaderContent {
+    justify-content: space-between;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    background-color: #2c3e50;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+    margin: auto;
+    align-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+    color: var(--menuTextBG);
+    font-family: var(--DescriptionFont);
+}
+
+.profileDetailsKey{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: normal;
+    /* al */
+}
+
+.UserINfo{
+
+    color: #cfff20;
+}
+.rightProfile{
+    margin-left: 8%;
+    color: #fff;
+    align-items: flex-end;
+    /* align-content: ; */
+
+}
+
+.leftProfile{
+    margin-left: 2%;
+    align-items: flex-start;
+    color: #fff;
+    /* align-content: center; */
+
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+.table th, .table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #f2f2f2;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #2980b9;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #3498db;
+}
+
+
+@media (min-width: 981px) {
+    /* .info {
+        display: flex;
+        flex-direction: column;
+        height: 80px;
+        align-content: center;
+        align-items: center;
+        justify-content: space-between;
+    } */
+}
