@@ -1,118 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="" />
-        <meta name="author" content="" />
-        <title>Vaccination Project</title>    
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="./img/logo.ico"/>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
-        <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic" rel="stylesheet" type="text/css" />
-        <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
-        <link href="css/mdb.min.css" rel="stylesheet"/>
-        <link href="css/bootstrap.css" rel="stylesheet" />
-        <link href="css/style.css" rel="stylesheet" />
-        <link href="css/custom.css" rel="stylesheet" />
-        <link href="css/Dashboard.css" rel="stylesheet" />
-    </head>
-    <body id="page-top">
-      
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>Vaccination Project</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="./img/logo.ico" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans:400,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic"
+        rel="stylesheet" type="text/css" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.css" rel="stylesheet" />
+    <link href="css/mdb.min.css" rel="stylesheet" />
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <link href="css/custom.css" rel="stylesheet" />
+    <link href="css/Dashboard.css" rel="stylesheet" />
+</head>
+
+<body id="page-top">
+
     <!-- Navigation-->
     <nav id="navBar"></nav>
     <!-- Navigation End-->
 
-           
-        <!-- Contact Section Start-->
-        <div class="container">
-          <div class="left-column">
-              <div class="menu-item" onclick="showSection('dashboard')">
-                  <img src="img/icons/D.svg" alt="Dashboard Icon">
-                  <span>Dashboard</span>
-              </div>
-              <div class="menu-item" onclick="showSection('appointment')">
-                  <img src="img/icons/D.svg" alt="Appointment Icon">
-                  <span>Appointment</span>
-              </div>
-              <div class="menu-item" onclick="showSection('vaccinationHistory')">
-                  <img src="img/icons/D.svg" alt="Vaccination History Icon">
-                  <span>Vaccination History</span>
-              </div>
-              <div class="menu-item" onclick="showSection('chat')">
-                  <img src="img/icons/D.svg" alt="Chat Icon">
-                  <span>Chat</span>
-              </div>
-              <div class="menu-item" onclick="showSection('profile')">
-                  <img src="img/icons/D.svg" alt="Profile Icon">
-                  <span>Profile</span>
-              </div>
-              <div class="menu-item" onclick="showSection('logout')">
-                  <img src="img/icons/D.svg" alt="Logout Icon">
-                  <span>Logout</span>
-              </div>
-          </div>
-          <div class="right-column" id="content">
-              <!-- Sections will be dynamically loaded here -->
-              <div id="dashboard" class="section">
-                <div class="DBHeaderContent">
-                    <div class="DBhead">
-                        <h2 class="DashboardHeader">Patient Dashboard</h2>
-                    </div>
-                    <div class="info">
-                        <div class="leftProfile">
-                            <div class="profileDetailsKey"><h5 class="UserINfo">Child's Name:</h5> &emsp; &emsp; <p class="UserDetails">John Doe</p></div>
-                            <div class="profileDetailsKey"><h5 class="UserINfo">Gender:</h5>&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<p class="UserDetails"> Male</p></div>                            
-                            <div class="profileDetailsKey"><h5 class="UserINfo">Age:</h5>&emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<p class="UserDetails">5</p></div>
+
+    <!-- Contact Section Start-->
+    <div class="DBcontainerPage">
+        <div class="left-column">
+            <div class="menu-item" onclick="showSection('dashboard')">
+                <img src="img/icons/D.svg" alt="Dashboard Icon">
+                <span>Dashboard</span>
+            </div>
+            <div class="menu-item " onclick="showSection('appointment')">
+                <img src="img/icons/D.svg" alt="Appointment Icon">
+                <span>Appointment</span>
+            </div>
+            <div class="menu-item" onclick="showSection('vaccinationHistory')">
+                <img src="img/icons/D.svg" alt="Vaccination History Icon">
+                <span>Medical History</span>
+            </div>
+            <div class="menu-item" onclick="showSection('chat')">
+                <img src="img/icons/D.svg" alt="Chat Icon">
+                <span>Chat</span>
+            </div>
+            <div class="menu-item" onclick="showSection('profile')">
+                <img src="img/icons/D.svg" alt="Profile Icon">
+                <span>Profile</span>
+            </div>
+            <div class="menu-item" onclick="showSection('logout')">
+                <img src="img/icons/D.svg" alt="Logout Icon">
+                <span>Logout</span>
+            </div>
+        </div>
+        <div class="right-column" id="content">
+            <!-- Sections will be dynamically loaded here -->
+            <!-- &emsp; &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp; -->
+            <div id="profile" class="section">
+                <h2>Profile Information</h2>
+                <div id="profileInfo" class="info">
+                    <div class="Column">
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Child's Name:</div>
+                            <div class="UserDetails">John Doe</div>
                         </div>
-                        <div class="rightProfile">
-                            <div class="profileDetailsKey"><h5 class="UserINfo">Guardian Name:</h5> &emsp;&emsp;&ensp;<p class="UserDetails"> Male</div>                            
-                            <div class="profileDetailsKey"><h5 class="UserINfo">Weight:</h5> &emsp;&emsp;&emsp;<p class="UserDetails">18kg</p></div>
-                            <div class="profileDetailsKey"><h5 class="UserINfo">DOB: &emsp;</h5> &emsp;&emsp;&emsp;&emsp;&ensp;&emsp; <p class="UserDetails">01/01/2019</p></div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Gender:</div>
+                            <div class="UserDetails"> Male</div>
+                        </div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Age:</div>
+                            <div class="UserDetails">5</div>
+                        </div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Dob:</div>
+                            <div class="UserDetails">01/01/2019</div>
+                        </div>
+                    </div>
+                    <div class="line" style="border: 1px solid white;"></div>
+                    <div class="Column">
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Guardian Name:</div>
+                            <div class="UserDetails"> Male</div>
+                        </div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Contact:</div>
+                            <div class="UserDetails">+880 123 456 789</div>
+                        </div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Weight:</div>
+                            <div class="UserDetails">18kg</div>
+                        </div>
+                        <div class="profileDetailsKey">
+                            <div class="UserINfo">Blood Group:</div>
+                            <div class="UserDetails">O+</div>
                         </div>
                     </div>
                 </div>
-                <h3>Recent/Pending Appointments</h3>
-                <table class="table">
-                    <thead>
-                        <tr>
-                            <th>Vaccine Name</th>
-                            <th>Vaccine Center</th>
-                            <th>Appointment Time</th>
-                            <th>Other Info</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Hepatitis B</td>
-                            <td>City Health Center</td>
-                            <td>12/12/2024 10:00 AM</td>
-                            <td>---</td>
-                        </tr>
-                        <!-- Add more rows as needed -->
-                    </tbody>
-                </table>
+                <form id="profileForm" class="editProfileCss">
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="childName">Child's Name:</label>
+                        <input type="text" id="childName" name="childName" value="John Doe">                        
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="age">Age:</label>
+                        <input type="text" id="age" name="age" value="5">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="gender">Gender:</label>
+                        <input type="text" id="gender" name="gender" value="Male">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="dob">DOB:</label>
+                        <input type="date" id="dob" name="dob" value="2019-01-01">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="weight">Current Weight:</label>
+                        <input type="text" id="weight" name="weight" value="18kg">
+                    </div>
+                    <div style="display:flex; justify-content: space-between;">
+                        <label for="guardianName">Guardian Name:</label>
+                        <input type="text" id="guardianName" name="guardianName" value="Jane Doe">
+                    </div>
+                    <button id="saveChange" class="btnMain">Save Changes</button>
+                </form>
+                <br>
+                <button class="btnMain" id="editProfile" onclick="editProfile()">Edit Profile</button>
+                <button class="btnMain" id="editPassword" onclick="editPassword()">Change Password</button>
             </div>
-          </div>
         </div>
+    </div>
 
 
-        
-        <!-- Contact Section END-->
-        
-        <!-- Footer Section START-->
-        <footer class=" ftr has-box-shadow"></footer>
-        <!-- Footer Section END-->
 
-        <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
-        <!-- SimpleLightbox plugin JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/SimpleLightbox/2.1.0/simpleLightbox.min.js"></script>
-        <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
-        <script src="js/Dashboard.js"></script>
-        <!-- MDB -->
-        <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script> -->
-    </body>
+    <!-- Contact Section END-->
+
+    <!-- Footer Section START-->
+    <footer class=" ftr has-box-shadow"></footer>
+    <!-- Footer Section END-->
+
+    <!-- Bootstrap core JS-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- SimpleLightbox plugin JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Si+mpleLightbox/2.1.0/simpleLightbox.min.js"></script>6
+    <!-- Core theme JS-->
+    <script src="js/scripts.js"></script>
+    <script src="js/Dashboard.js"></script>
+    <!-- MDB -->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.3.0/mdb.min.js"></script> -->
+</body>
+
 </html>

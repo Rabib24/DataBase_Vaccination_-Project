@@ -1,14 +1,14 @@
-Hepatitis B (HepB)
-Diphtheria, Tetanus, Pertussis (DTaP/Tdap)
-Haemophilus influenzae type b (Hib)
-Polio
-Pneumococcal Conjugate (PCV)
-Rotavirus (RV)
-Measles, Mumps, Rubella (MMR)
-Varicella (Chickenpox)
-Hepatitis A (HepA)
-Human Papillomavirus (HPV)
-Meningococcal Conjugate (MCV4)
+Hepatitis B (HepB) -- 3 Dose
+Diphtheria, Tetanus, Pertussis (DTaP/Tdap) - DTaP: 5 doses, - Tdap: Booster dose
+Haemophilus influenzae type b (Hib) --3Dose 
+Polio -- 4 dose
+Pneumococcal Conjugate (PCV) -- 4 dose
+Rotavirus (RV) -- - Rotarix: 2 doses, - RotaTeq: 3 doses.
+Measles, Mumps, Rubella (MMR) -- 2 doses.
+Varicella (Chickenpox) -- Varicella: 2 doses.
+Hepatitis A (HepA) -- 2 doses.
+Human Papillomavirus (HPV) -- 2 doses.
+Meningococcal Conjugate (MCV4) -- 2 doses
 
 
 
@@ -35,3 +35,11 @@ Pediatrician
 Govt Agency
 Child/Gurdian
 Vaccine Center
+
+
+
+
+
+Hepatitis B (HepB) -- 3 Dose
+- DTaP: 5 doses
+- Tdap: Booster dose

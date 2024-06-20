@@ -31,23 +31,23 @@
                 <label for="baby-name">Baby Name:</label>
                 <input type="text" id="baby-name" name="babyName" >
     
-                <label for="care-giver-name">Guardian Name:</label>
-                <input type="text" id="care-giver-name" name="careGiverName" required>
+                <label for="Guardian-name">Guardian Name:</label>
+                <input type="text" id="Guardian-name" name="careGiverName" required>
     
-                <label for="address">Dath Of Birth:</label>
-                <textarea id="DOB" name="DOB" required></textarea>
+                <label for="DOB">Dath Of Birth:</label>
+                <input type="date" id="DOB" name="DOB" required></textarea>
     
-                <label for="address">Blood Group:</label>
-                <textarea id="bloodgroup" name="bloodgroup"></textarea>
+                <label for="bloodgroup">Blood Group:</label>
+                <input type="text" id="bloodgroup" name="bloodgroup" required>
     
-                <label for="address">Weight:</label>
-                <textarea id="weight" name="weight" required></textarea>
+                <label for="weight">Weight:</label>
+                <input type="text"  id="weight" name="weight" required></textarea>
     
                 <label for="contact">Contact Number:</label>
                 <input type="tel" id="contact" name="contact" required>
                 
                 <label for="ChildProblem">Any problem to share about:</label>
-                <textarea id="ChildProblem" name="ChildMedical" rows="3" required></textarea>
+                <textarea id="ChildProblem" name="ChildProblem" rows="3"></textarea>
 
                 <div class="checkbox-group">
                     <label class="checkboxheader">Select The Vaccine Those Already Given: </label>
@@ -62,6 +62,11 @@
                     <label><input type="checkbox" name="problem" value="HepA"> HepA (Hepatitis A)</label>
                     <label><input type="checkbox" name="problem" value="HPV"> HPV (Human Papillomavirus)</label>
                     <label><input type="checkbox" name="problem" value="MCV4"> MCV4 (Meningococcal Conjugate)</label>
+                </div>
+
+                <div class="Medical">
+                    <label for="UserMedicalReport">Upoad Any Medical Report:</label>
+                    <input type="file" name="UserMedicalReport" id="UserMedicalReport" multiple="multiple">
                 </div>
     
                 <button class="btn Submitbutton" onclick="submitRegistration()">Submit</button>

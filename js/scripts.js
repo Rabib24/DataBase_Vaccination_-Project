@@ -8,7 +8,6 @@
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
-
     // Navbar shrink function
     var navbarShrink = function () {
         const navbarCollapsible = document.body.querySelector('#mainNav');
@@ -52,10 +51,6 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
     // Activate SimpleLightbox plugin for portfolio items
-    new SimpleLightbox({
-        elements: '#portfolio a.portfolio-box'
-    });
-
     const Menu = document.querySelector('#navBar');
     const postElement = document.createElement('div');
     postElement.classList.add('MenuNAV');
@@ -100,7 +95,6 @@ window.addEventListener('DOMContentLoaded', event => {
     
     
     const Footer = document.querySelector('.ftr');
-    console.log(Footer)
     const FooterElement = document.createElement('div');
     FooterElement.classList.add('.ftr');
     FooterElement.innerHTML=`

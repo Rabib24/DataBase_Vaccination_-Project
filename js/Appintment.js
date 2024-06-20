@@ -16,7 +16,6 @@ document.addEventListener('DOMContentLoaded', () => {
         { id: 3, name: 'County Health Center' },
         { id: 3, name: 'County Health Center' },
 
-
         
     ];
 
